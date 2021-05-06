@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "hello.h"
 
 int main()
 {
-    hello("I'm demo2.");
+    printf("Hello, this is demo2.\n");
     return 0;
 }

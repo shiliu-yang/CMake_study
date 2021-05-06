@@ -1,8 +1,12 @@
 #include <stdio.h>
-#include "hello.h"
+#include "func1.h"
+#include "func2.h"
 
 int main()
 {
-    hello("I'm demo3.");
+    printf("This is demo3.\n");
+    func1();
+    func2();
+
     return 0;
 }
